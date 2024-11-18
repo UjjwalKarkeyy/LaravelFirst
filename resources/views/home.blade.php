@@ -1,10 +1,6 @@
-@extends('layouts.app')
-
-@section('content')
 <x-layout>
     <x-slot:heading>
         Home Page
     </x-slot:heading>
     <h1>Hello from home</h1>
 </x-layout>
-@endsection

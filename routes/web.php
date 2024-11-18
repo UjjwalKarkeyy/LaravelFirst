@@ -6,7 +6,6 @@ Route::get('/', function () {
     return view('home');
 });
 
-Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
@@ -15,7 +14,8 @@ Route::get('/about', function () {
 });
 
 Route::get('/contact', function(){
-
+    
     return view('contact');
 });
 
+Auth::routes();
